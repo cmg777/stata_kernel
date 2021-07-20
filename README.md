@@ -9,7 +9,7 @@ Minimal personal version.
 To install in a conda environment:
 ```
 conda install git
-python -m stata_kernel.install
 pip install git+git://github.com/gaksaray/stata_kernel@master
+python -m stata_kernel.install
 ```
 Tested on Anaconda version 2021.05 and Stata/SE 17.0 for Windows (64-bit).
