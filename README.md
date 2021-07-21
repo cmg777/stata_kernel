@@ -6,11 +6,18 @@ Minimal personal version.
 - Updated Stata versioning in config and other files to 17
 - Removed %help magic all together as it wasn't working properly (e.g., %help kernel was giving me an error)
 
-To install in a conda environment:
+To install:
+
+- Download the [anaconda distribution of Python](https://www.anaconda.com/products/individual)_
+- In the terminal write 
+
 ```
+conda create -n envStata python=3.7
+conda activate envStata
 conda install git
 pip install git+git://github.com/gaksaray/stata_kernel@master
 conda install jupyterlab
 python -m stata_kernel.install
+jupyter lab
 ```
 Tested on Anaconda version 2021.05 and Stata/SE 17.0 for Windows (64-bit).
