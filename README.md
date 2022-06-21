@@ -15,9 +15,11 @@ To install:
 conda create -n envStata python=3.7
 conda activate envStata
 conda install git
-pip install git+git://github.com/gaksaray/stata_kernel@master
+pip install git+git://github.com/cmg777/stata_kernel@master
 conda install jupyterlab
 python -m stata_kernel.install
 jupyter lab
 ```
 Tested on Anaconda version 2021.05 and Stata/SE 17.0 for Windows (64-bit).
+
+
