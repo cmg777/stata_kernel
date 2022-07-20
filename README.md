@@ -12,7 +12,7 @@ To install:
 - In the terminal write 
 
 ```
-conda deactivate stata2
+conda deactivate
 conda env remove -n stata2
 conda create -n stata3 python=3.8
 conda activate stata3
